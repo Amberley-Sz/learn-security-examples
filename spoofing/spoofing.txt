@@ -1,1 +1,9 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+The vulnerability is that the attacker can get access to the cookie's session id by having user to click on
+some link, and use the saved cookie to access users' accounts.
+
+The secure version makes the cookie's session information specific to its site, so that when user go to other
+sites, the cookies are not there, therefore not accessible to attackers.
+
+It violates the integrity property.

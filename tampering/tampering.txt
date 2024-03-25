@@ -1,0 +1,5 @@
+Tampering is that the attacker can alternate data by inserting malicious database query.
+
+It is prevented by sanitizing the user input so that it can prevent from any database query.
+
+Tampering violates the integrity property.

@@ -1,3 +1,12 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+The vulnerability is that the attacker can access all the data without authorization by inserting database
+query in the url.
+
+By sanitizing the http request, it can prevent inserting database query to url.
+
+It violates the confidentiality property.
+
+We can also use encryption in transit or storage so that even if the data is accessed, it cannot be understood.
